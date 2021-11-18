@@ -1,4 +1,4 @@
-
+// Tab
 function tech(evt, tech) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -11,4 +11,24 @@ function tech(evt, tech) {
   }
   document.getElementById(tech).style.display = "block";
   evt.currentTarget.className += " active";
+}
+// Progresh Bar
+var i = 0;
+function move() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar");
+    var width = 10;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+        elem.innerHTML = width  + "%";
+      }
+    }
+  }
 }

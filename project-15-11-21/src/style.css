@@ -237,11 +237,11 @@ body {
 
 /* Tab End */
 
+/* Skills */
 #skills {
-    height: 50vh;
+    margin: 3% auto 4%;
+
 }
-
-
 
 #skills .row .col {
     padding-left: 10%;
@@ -275,37 +275,86 @@ body {
     margin-right: 5%;
 }
 
+.customizationImg img {
+    width: 50%;
+}
+
 .security {
     margin-top: 15%;
 }
 
 #client {
-    height: 50vh;
     width: 100%;
-    background-color: black;
+
 }
 
-#client>p {
+.clientText {
+    padding: 2% 0 2% 15%;
+    background-color: rgb(12, 12, 12);
+}
+
+#client .clientText>p {
+    padding-top: 5%;
     color: #fbaa1c;
 }
 
-#client h1 {
+#client .clientText h1 {
     color: #fff;
+    padding-bottom: 15%;
+}
+
+#client .card-group {
+    margin-top: -10%;
+    padding: 0 15%;
+    width: 100%;
 }
 
 #client .card-group .card {
-    height: 261 px;
+    position: relative;
+    margin-bottom: -10%;
+    height: auto;
+    margin: 1em;
     color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 2px gray;
+}
+
+#contactUs {
+    margin-top: 5%;
+}
+
+.contactText {
+    text-align: center;
+}
+
+.contactText p {
+    color: #ffaa17;
+}
+
+.contactText h1 {
+    font-weight: 900;
 }
 
 #contactUs img {
-    width: 90%;
+    width: 100%;
     height: 70%;
+}
+
+.contactBtn {
+    border: none;
+}
+
+.contactBtn:hover {
+    transition: 0.5s;
+    background-color: grey;
+    color: white;
+
 }
 
 #contactUs form {
     margin-top: 20vmin;
-    width: 50%;
+    width: 60%;
+    padding: 5%;
 }
 
 
@@ -324,6 +373,10 @@ footer {
     text-align: center;
 }
 
+footer {
+    padding: 5% 25%;
+}
+
 .footerImg {
     text-align: center;
     margin-left: auto;
@@ -331,17 +384,18 @@ footer {
 }
 
 .footerImg img {
-    width: 500px;
+    width: 400px;
 }
 
-footer .copy {
-
+.copy {
+    text-align: center;
     height: 150px;
     background-color: gray;
 }
 
-footer span {
-    padding-top: 50px;
+.copy p {
+
+    padding-top: 5%;
 }
 
 /* No less than 400px, no greater than 900px */
