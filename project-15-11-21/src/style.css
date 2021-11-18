@@ -1,0 +1,503 @@
+/* Navbar */
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans',
+        sans-serif;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    width: auto;
+    float: right;
+    font-weight: 600;
+    color: black;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #ffaa17;
+    border-radius: 10px;
+    color: white;
+}
+
+.navbar-brand img {
+    width: 250px;
+}
+
+.phoneIcon {
+    text-align: center;
+    justify-content: center;
+    padding-right: 5px;
+    margin: auto;
+}
+
+.phoneCall {
+    padding: 25px;
+    background-color: #ffaa17;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 250px;
+    float: right;
+}
+
+
+
+/*#banner*/
+#banner {
+    display: flex;
+    width: 100%;
+    padding: 0% 3%;
+}
+
+.banner-text {
+    margin-top: 15%;
+    width: 50%;
+}
+
+.banner-text .btn {
+    margin: 3%;
+}
+
+.banner-text h6,
+.banner-text .banner-text-2 {
+    color: #ffaa17;
+}
+
+.banner-text h6,
+.banner-text .banner-text-1,
+.banner-text .banner-text-2 {
+    margin-bottom: 1rem;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-img img {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+.banner-img .banner-card {
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px gray;
+    background-color: #f3f1ed;
+    width: 240px;
+    margin-top: -32%;
+    margin-left: 58%;
+    z-index: 0;
+
+}
+
+#cards {
+    margin-top: 5%;
+}
+
+.card img {
+    margin: 10% auto 5%;
+    width: 10%;
+}
+
+.card {
+    text-align: center;
+    margin: 15%;
+    box-shadow: 5px 5px 5px 1px gray;
+}
+
+.bgc {
+    width: auto;
+    height: 25vh;
+    background-color: #b8cde5b7;
+    position: relative;
+    margin-top: -8%;
+    z-index: -1;
+}
+
+/* About */
+#About-us {
+    display: flex;
+    width: 100%;
+}
+
+#About-us .about-img {
+    padding-left: 0%;
+    width: 40%;
+    height: 100%;
+}
+
+#About-us .about-img img {
+    width: 100%;
+}
+
+#About-us .about-text {
+    width: 55%;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+#About-us .about-text p {
+    color: #ffaa17;
+}
+
+#About-us .about-text h1 {
+    font-weight: 700;
+    padding-top: 1rem;
+}
+
+#About-us .about-text h3 {
+    font-weight: 400;
+    padding-top: 5%;
+
+}
+
+#About-us .about-text h5 {
+    font-weight: 300;
+    padding-top: 2%;
+
+}
+
+.btn-about {
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+#About-us .about-text .row .col li {
+    margin-top: 3%;
+    list-style: none;
+    font-weight: bolder;
+
+}
+
+/* Style the tab */
+.solidSolutio {
+    margin-top: 3%;
+    background-color: #b8cde5b7;
+}
+
+.tab {
+    margin-bottom: 30px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-bottom: none;
+
+}
+
+.tabData {
+
+    padding: 1%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    width: 20%;
+    text-align: center;
+    padding: 3%;
+    margin: 2%;
+    background-color: inherit;
+    float: left;
+    border: solid 1px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    border: none;
+    /* width: 20%; */
+    text-align: center;
+    /* padding: 3%; */
+    /* margin: 2%; */
+    background: #ffaa17;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 68% 76%, 51% 100%, 28% 75%, 0% 75%);
+
+}
+
+/* Style the tab content */
+.tabcontent.active {
+    display: flex;
+}
+
+.tabcontent {
+    background-color: #fff;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+
+}
+
+/* Tab End */
+
+#skills {
+    height: 50vh;
+}
+
+
+
+#skills .row .col {
+    padding-left: 10%;
+}
+
+#skills .row .col .progress .progress-bar {
+    background-color: #ffaa17;
+}
+
+#skills .row .skillsImg {
+    text-align: center;
+}
+
+#skills .row .col img {
+    text-align: center;
+    height: 50vh;
+}
+
+#support-security {
+    background-color: #c0d3e7;
+}
+
+#support-security .security,
+#support-security .support {
+    display: flex;
+}
+
+.security img,
+.support img {
+    height: 250%;
+    margin-right: 5%;
+}
+
+.security {
+    margin-top: 15%;
+}
+
+#client {
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+}
+
+#client>p {
+    color: #fbaa1c;
+}
+
+#client h1 {
+    color: #fff;
+}
+
+#client .card-group .card {
+    height: 261 px;
+    color: black;
+}
+
+#contactUs img {
+    width: 90%;
+    height: 70%;
+}
+
+#contactUs form {
+    margin-top: 20vmin;
+    width: 50%;
+}
+
+
+.carousel-inner .carousel-item {
+    background-color: cornflowerblue;
+}
+
+.carousel-item img {
+    width: 400px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+.footerImg {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerImg img {
+    width: 500px;
+}
+
+footer .copy {
+
+    height: 150px;
+    background-color: gray;
+}
+
+footer span {
+    padding-top: 50px;
+}
+
+/* No less than 400px, no greater than 900px */
+@media (min-width:400px) and (max-width:990px) {
+    body {
+        background-color: aqua;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        margin: 0.25rem 1.75rem;
+        width: 200px;
+        border-radius: 10px;
+        padding: 0% 3% 0% 3%;
+        line-height: 200%;
+        font-size: 1.5rem;
+    }
+
+    .navbar-toggler {
+        margin: 0.25rem 1.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        transition: box-shadow .15s ease-in-out;
+    }
+
+    ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        margin: auto;
+        text-align: left;
+
+    }
+
+    .navbar-brand img {
+        width: 200px;
+    }
+
+    #banner {
+        display: flex;
+        width: 90%;
+        margin: 5%;
+    }
+
+    .banner-text {
+        width: 70%;
+    }
+
+    .banner-img {
+        width: 30%;
+    }
+
+    .banner-img img {
+        width: 100%;
+        margin-left: -50%;
+    }
+
+    .banner-img .banner-card {
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 1px gray;
+        background-color: #f3f1ed;
+        z-index: 0;
+        text-align: center;
+        margin-top: -60%;
+        float: left;
+        display: none;
+    }
+
+
+
+
+    .banner-text h6,
+    .banner-text .banner-text-1,
+    .banner-text .banner-text-2 {
+        margin-bottom: 10px;
+    }
+
+    .bgc {
+        display: none;
+    }
+
+    #About-us {
+        display: block;
+        width: 100%;
+    }
+
+    #About-us .about-img {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #About-us .about-img img {
+        width: 50%;
+    }
+
+    #About-us .about-text {
+        width: 100%;
+        padding-left: 15%;
+        padding-top: 3%;
+    }
+
+}
+
+/* No less than 200px, no greater than 400px */
+@media (min-width:200px) and (max-width:400px) {
+    body {
+        background-color: rgb(155, 72, 151);
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        margin: 0.25rem 1.75rem;
+        width: 200px;
+        border-radius: 10px;
+        padding: 0% 3% 0% 0%;
+        line-height: 200%;
+        font-size: 1.5rem;
+    }
+
+    .navbar-toggler {
+        margin: 0.25rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        transition: box-shadow .15s ease-in-out;
+    }
+
+    ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        margin: auto;
+        text-align: left;
+
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    #banner {
+        display: flex;
+        width: 80%;
+        margin: 2%;
+    }
+
+    .banner-text h6,
+    .banner-text .banner-text-1,
+    .banner-text .banner-text-2 {
+        margin-bottom: 10px;
+    }
+
+    .banner-img img {
+        width: 150%;
+    }
+
+}
+
+​ ​
